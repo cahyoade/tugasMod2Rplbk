@@ -13,7 +13,22 @@ function App() {
 			name: 'Cahyo Ade',
 			nim: '21120120130123',
 			email: 'cahyoade@students.undip.ac.id'
-		}
+		},
+		{
+			name: 'daniel suberdo matanari',
+			nim: '21120120140175',
+			email: 'danielmatanari180502@gmail.com'
+		},
+		{
+			name: 'Mukhamad Ferry Hendrawan',
+			nim: '21120120140039',
+			email: 'm.ferryhendrawan17@gmail.com'
+		},
+		{
+			name: 'Helmi Bagus Wijanarko',
+			nim: '21120119120009',
+			email: 'helmibagus8@gmail.com'
+		},
 	]);
 
 	function handleChange(e) {
