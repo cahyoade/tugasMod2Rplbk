@@ -28,12 +28,13 @@ function App() {
 
 	return (
 		<div className='App'>
+			<h1 style={{color: 'white'}}>Tugas Modul 2 Kel 36</h1>
 			<div className='components'>
 				{
 					data.map((el, id) => <Card {...el} key={id} />)
 				}
 			</div>
-			<form action="" onSubmit={e => e.preventDefault()} style={{display: 'flex', gap:'8px'}}>
+			<form action="" onSubmit={e => e.preventDefault()} style={{display: 'flex', gap:'8px', marginTop: '24px'}}>
 				<input type='text' placeholder="name" name='name' onChange={handleChange}/>
 				<input type='text' placeholder="nim" name='nim' onChange={handleChange}/>
 				<input type='text' placeholder="email" name='email' onChange={handleChange}/>
